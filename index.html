@@ -14,7 +14,7 @@
 
 <body>
 
-  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+<script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
 </script>
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Chicle" />
 <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Andika" />
@@ -32,16 +32,14 @@
     <input type = "button" class = "filter" value = "The Secret" onclick = "secret()"><br>
     <input type = "button" class = "filter" value = "Rainbow Hue" onclick = "rainbowimage()">
   </div>
+  <div>
+    Select File<br>
+    <input type = "file" id = "loadButton" multiple = "false" accept = "image/*" onchange = "loadImage()">
+  </div>
+    <input type = "button" id = "reset"value = "Reset Image" onclick = "resetImage()">
+  </div>
 </div>
-<div>
-  Select File<br>
-  <input type = "file" id = "loadButton" multiple = "false" accept = "image/*" onchange = "loadImage()">
-</div>
-<p> 
-  <input type = "button" value = "Reset Image" onclick = "resetImage()">
-</p>
-  
-</div>
+
   
   
 
