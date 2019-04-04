@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Image Filters</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js" >
+</script>
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Chicle" />
+<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Andika" />
+<div id = "leftShift">
+<h1>Make Your Images Fun</h1>
+<div id = "mainArea">
+  <canvas id = "canvas"></canvas>
+  <div id = "filters">
+    Apply Filters<br>
+    <input type = "button" class = "filter" value = "Vintage" onclick = "vintage()">
+    <input type = "button" class = "filter" value = "Grayscale" onclick = "grayscale()"><br>
+    <input type = "button" class = "filter" value = "Blur" onclick = "blurimage()">
+    <input type = "button" class = "filter" value = "Red Hue 1" onclick = "redimage()"><br>
+    <input type = "button" class = "filter" value = "Red Hue 2" onclick = "redimageTwo()">
+    <input type = "button" class = "filter" value = "The Secret" onclick = "secret()"><br>
+    <input type = "button" class = "filter" value = "Rainbow Hue" onclick = "rainbowimage()">
+  </div>
+</div>
+<div>
+  Select File<br>
+  <input type = "file" id = "loadButton" multiple = "false" accept = "image/*" onchange = "loadImage()">
+</div>
+<p> 
+  <input type = "button" value = "Reset Image" onclick = "resetImage()">
+</p>
+  
+</div>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

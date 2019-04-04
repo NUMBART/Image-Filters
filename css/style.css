@@ -1,0 +1,41 @@
+#leftShift{
+  margin:0px 192px;
+}
+h1{
+  font-family: Andika;
+  color:green;
+  font-size:50px;
+}
+#canvas{
+  color:darkgray;
+  border:outset 3px;
+  width: 550px;
+}
+input{
+  font-family:Arial;
+  color:white;
+  background-color :royalblue;
+  border:1px;
+  padding:7px;
+  text-align: center;
+  border-style:outset;
+  margin: 10px 0px;
+}
+div{
+  font-family:Andika;
+  font-size:33px;
+  color:tomato;
+}
+.filter{
+  width:108px;
+}
+#filters{
+  position:absolute;
+  top:0px;
+  right:0px;
+}
+#mainArea{
+  position:relative;
+  width:800px;
+  height:340px;
+}
