@@ -1,5 +1,5 @@
 #leftShift{
-  margin:0px 192px;
+  margin:0px 150px;
 }
 h1{
   font-family: Andika;
@@ -10,6 +10,7 @@ h1{
   color:darkgray;
   border:outset 3px;
   width: 550px;
+  
 }
 input{
   font-family:Arial;
@@ -38,4 +39,8 @@ div{
   position:relative;
   width:800px;
   height:340px;
+}
+#reset{
+  width:150px;
+  height:40px;
 }
